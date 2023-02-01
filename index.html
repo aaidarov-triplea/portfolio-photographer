@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ubuntu Google-fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Raleway Google-fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Icon -->
+  <link rel="icon" href="./images/icon.png" type="image/x-icon">
+  <title>portfolio-photographer</title>
+  </head>
+<body>
+  <header class="header">
+      <a href="index.html">Lucas Montana</a>
+  </header>
+  <main class="container">
+    <div class="aboutMe">
+      <div class="avatar">
+        <img src="./images/avatar.png"alt="avatar">
+      </div>
+      <div class="aboutMe-card">
+        <h2>Hey. I'm Lucas<br>And I'm a professional photographer</h2>
+        <div class="line"></div>
+        <h3>Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus.</h3>
+        <p>
+          Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas semper. Cum sociis natoque penatibus et magnis maecenas. Donec ullamcorper nulla non metus auctor fringilla. 
+        </p>
+        <button class="btn btn-modal">contact me</button>
+      </div>
+    </div>
+    
+    <div class="modal-overlay">
+      <div class="modal-window">
+      <button class="btn-close">
+        <img src="./images/x.png" alt="close">
+      </button>
+      <div class="modal-form">
+        <h2>Contact me</h2>
+        <p>
+          Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+          </p>
+      </div>
+      <form>
+        <fieldset>
+        <input type="text" id="name"placeholder="Your name..." autocomplete="off">
+        <input type="email" name="email" id="email" placeholder="Your email..." autocomplete="off">
+      </fieldset>
+        <textarea name="message" id="message">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros.</textarea>
+        <button class="btn btn-send">Send message</button>
+      </form>
+    </div>
+    </div>
+  </main>
+<section class="container gallery">
+  <h2>Portfolio</h2>
+  <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+</section>
+
+<section class="pictures-item container"></section>
+
+<div class="overlay">
+    <div class="modal">
+        <button class="img-close">CLOSE</button>
+    </div>
+</div>
+
+<footer>
+  <div class="contact">
+    <div class="footer-avatar">
+      <img src="./images/avatar.png" alt="avatar">
+    </div>
+    <div class="contact-body">
+      <h1>Lucas Montana</h1>
+      <a class="phone" href="tel: +47682525255">+4 768 25 25 255</a>
+      <a class="location"
+      target="_blank" 
+      href="https://www.google.com/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@52.232938,21.0611941,11z/data=!3m1!4b1!4m5!3m4!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287">
+      Poland, Warsaw
+    </a>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>All rights reserved. “World Photos”, Inc</p>
+  </div>
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>
